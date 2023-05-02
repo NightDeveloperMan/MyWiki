@@ -827,17 +827,16 @@ a {
   flex-grow: 1;
 }
 .u-input {
-  display: block;
-  width: 100%;
-  padding: 10px 12px;
-  background-image: none;
-  background-clip: padding-box;
-  border-width: 0;
-  border-radius: 3px;
-  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-  background-color: transparent;
-  color: inherit;
-  height: auto;
+    display: block;
+    width: 100%;
+    border: 3px solid #000000;
+    padding: 10px 12px;
+    background-clip: padding-box;
+    border-radius: 3px;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    background-color: #FFFFFF;
+    color: #000000;
+    height: auto;
 }
 .u-form-horizontal .u-form-group:not(.u-label-top) label,
 .u-form-horizontal .u-form-group:not(.u-label-top) input,

@@ -71,11 +71,11 @@
                 <div class="u-container-layout u-container-layout-1">
                   <div class="u-form u-form-1">
                     <form action="https://forms.nicepagesrv.com/v2/form/process" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" style="padding: 10px" source="email" name="form">
-                      <p class="u-align-center u-form-group u-form-text u-label-top u-text u-text-1">Документ разукомплектации</p>
+                      <p style="padding-left: 10px; font-weight: bold;" >ДОКУМЕНТ РАЗУКОМПЛЕКТАЦИИ</p>
                       <div class="u-form-group u-form-select u-label-top u-form-group-2">
-                        <label for="select-1d19" class="u-label">В связи</label>
+                        <label for="select-1d19" class="label">В связи</label>
                         <div class="u-form-select-wrapper">
-                          <select id="select-1d19" name="select" class="u-input u-input-rectangle">
+                          <select class ="input-selection" id="select-1d19" name="select">
                             <option value="Item 1" data-calc="">Item 1</option>
                             <option value="Item 2" data-calc="">Item 2</option>
                             <option value="Item 3" data-calc="">Item 3</option>
@@ -84,8 +84,8 @@
                         </div>
                       </div>
                       <div class="u-form-group u-label-top u-form-group-3">
-                        <label for="text-5164" class="u-label">Материально-ответственное лицо</label>
-                        <input type="text" placeholder="" id="text-5164" name="text-2" class="u-input u-input-rectangle">
+                        <label class="label" for="text-5164" >Материально-ответственное лицо</label>
+                        <input class="input-text" type="text" placeholder="" id="text-5164" name="text-2">
                       </div>
                       <div class="u-align-left u-form-group u-form-submit u-label-top">
                         <a href="#" class="u-border-1 u-border-black u-btn u-btn-submit u-button-style u-hover-black u-none u-text-black u-text-hover-white u-btn-1">сохранить</a>
@@ -96,14 +96,14 @@
                     </form>
                   </div>
                   <form th:method="POST" th:action="@{/diss/addKit}" th:object="${data}">
-                    <button type="submit"  class="u-border-1 u-border-black u-btn u-button-style u-hover-black u-none u-text-hover-white u-btn-2">добавить сомплект</button>
+                    <button type="submit"  class="u-border-1 u-border-black u-btn u-button-style u-hover-black u-none u-text-hover-white u-btn-2">добавить комплект</button>
                   </form>
                 </div>
               </div>
               <div class="u-container-style u-layout-cell u-size-31 u-layout-cell-2">
                 <div class="u-container-layout u-container-layout-2">
                       <div class="accordion-external">
-                        <div class="accordion-external-header">Внешний аккордион</div>
+                        <div class="accordion-external-header">ВНЕШНИЙ АККОРДИОН</div>
                         <div class="accordion-content">
                           <div class="accordion-interior">
                             <form action="accordion-form">
@@ -117,7 +117,7 @@
                               <button class="add-complect">Добавить комплект</button>
                             </form>
                             <div class="interior-accordion-div">
-                              <div class="accordion-interior-header">Внутренний аккордион</div>
+                              <div class="accordion-interior-header">ВНУТРЕННИЙ АККОРДИОН</div>
                               <div class="accordion-content">
                                 <form action="accordion-form">
                                   <p class="devices">Оборудование</p>

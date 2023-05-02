@@ -1,29 +1,29 @@
 		.accordion-interior
 		{
-			border: 1px solid #000000;
 			border-radius: 1px;
 			margin-bottom: 5px;
 			width: auto;
 		}
 		.accordion-external{
-			border: 1px solid #000000;
 			border-radius: 4px;
 			margin-bottom: 10px;
 			height: auto;
-			width: 300px;
+			width: 500px;
 		}
 		.accordion-external-header {
+			border-bottom: 1px solid #000000;
 			background-color: #ffffff;
 			cursor: pointer;
-			padding: 10px;
+			padding: 30px;
 			font-weight: bold;
 		}
 		.accordion-interior-header {
+
 			background-color: #ffffff;
 			cursor: pointer;
-			padding: 10px;
-			border: #000000;
+			padding: 30px;
 			font-weight: bold;
+			border-bottom: 1px solid #000000;
 		}
 		.accordion-content {
 			padding: auto;
@@ -36,11 +36,13 @@
 			border: 1px solid #000000;
 		}
 		.add-complect{
-			border: 1px solid #000000;
-			background-color: #ffffff;
-			border-radius: 4px;
-			height: 30px;
-			margin-bottom: 10px;
+			border-style: solid;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0px;
+			margin: -67px 21px 0 auto;
+			padding: 10px 21px;
+			background: #FFFFFF;
 		}
 		.devices{
 			text-align: center;
@@ -53,23 +55,37 @@
 			font-weight: bold;
 		}
 		.input-text{
-			border: 1px solid #000000;
-			border-radius: 4px;
-			background-color: #ffffff;
-			height: 30px;
+			display: block;
+			width: 100%;
+			padding: 10px 12px;
+			background-image: none;
+			background-clip: padding-box;
+			border-radius: 3px;
+			transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+			background-color: transparent;
+			color: inherit;
+			height: auto;
 		}
 		.input-selection{
-			border: 1px solid #000000;
-			border-radius: 4px;
-			background-color: #ffffff;
-			height: 37px;
-			width: 173px;
+			display: block;
+			width: 100%;
+			padding: 10px 12px;
+			background-image: none;
+			background-clip: padding-box;
+			border-radius: 3px;
+			transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+			background-color: transparent;
+			color: inherit;
+			height: auto;
 		}
 		.input-submit
 		{
-			border: 1px solid #000000;
-			border-radius: 4px;
-			background-color: #ffffff;
-			height: 30px;
+			border-style: solid;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0px;
+			margin: -67px 21px 0 auto;
+			padding: 10px 21px;
+			background: #FFFFFF;
 		}
 
