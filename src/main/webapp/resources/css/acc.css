@@ -1,0 +1,75 @@
+		.accordion-interior
+		{
+			border: 1px solid #000000;
+			border-radius: 1px;
+			margin-bottom: 5px;
+			width: auto;
+		}
+		.accordion-external{
+			border: 1px solid #000000;
+			border-radius: 4px;
+			margin-bottom: 10px;
+			height: auto;
+			width: 300px;
+		}
+		.accordion-external-header {
+			background-color: #ffffff;
+			cursor: pointer;
+			padding: 10px;
+			font-weight: bold;
+		}
+		.accordion-interior-header {
+			background-color: #ffffff;
+			cursor: pointer;
+			padding: 10px;
+			border: #000000;
+			font-weight: bold;
+		}
+		.accordion-content {
+			padding: auto;
+			display: none;
+		}
+		.accordion-form{
+			padding: 20px;
+			border-radius: 4px;
+			margin-bottom: 10px;
+			border: 1px solid #000000;
+		}
+		.add-complect{
+			border: 1px solid #000000;
+			background-color: #ffffff;
+			border-radius: 4px;
+			height: 30px;
+			margin-bottom: 10px;
+		}
+		.devices{
+			text-align: center;
+			font-weight: bold;
+		}
+		.interior-accordion-div{
+			padding-left: 50px;
+		}
+		.label{
+			font-weight: bold;
+		}
+		.input-text{
+			border: 1px solid #000000;
+			border-radius: 4px;
+			background-color: #ffffff;
+			height: 30px;
+		}
+		.input-selection{
+			border: 1px solid #000000;
+			border-radius: 4px;
+			background-color: #ffffff;
+			height: 37px;
+			width: 173px;
+		}
+		.input-submit
+		{
+			border: 1px solid #000000;
+			border-radius: 4px;
+			background-color: #ffffff;
+			height: 30px;
+		}
+
