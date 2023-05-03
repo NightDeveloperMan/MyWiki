@@ -16,6 +16,7 @@
 			cursor: pointer;
 			padding: 30px;
 			font-weight: bold;
+			white-space: pre;
 		}
 		.accordion-interior-header {
 
@@ -24,6 +25,7 @@
 			padding: 30px;
 			font-weight: bold;
 			border-bottom: 1px solid #000000;
+			white-space: pre;
 		}
 		.accordion-content {
 			padding: auto;
@@ -88,4 +90,3 @@
 			padding: 10px 21px;
 			background: #FFFFFF;
 		}
-

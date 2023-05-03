@@ -27,7 +27,7 @@ public class Kit {
 
     public Kit() {
         this.id = 0;
-        this.complectName = "тест";
+        this.complectName = "Пустой комплект";
         this.inventoryNumber = "";
         this.complectCost = 0.0D;
     }
