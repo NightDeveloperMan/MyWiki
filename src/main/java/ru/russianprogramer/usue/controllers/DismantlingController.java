@@ -1,13 +1,13 @@
 package ru.russianprogramer.usue.controllers;
 
-import com.sun.org.apache.xpath.internal.operations.Mod;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import ru.russianprogramer.usue.models.dissassemly.models.DismantlingDataAccessObject;
+
+import java.sql.SQLException;
 
 
 @Controller
@@ -15,6 +15,10 @@ import ru.russianprogramer.usue.models.dissassemly.models.DismantlingDataAccessO
 public class DismantlingController {
 
     private DismantlingDataAccessObject data = new DismantlingDataAccessObject();
+
+    public DismantlingController() throws SQLException {
+    }
+
     @GetMapping()
     public String showComplects(Model model) {
 
@@ -23,9 +27,16 @@ public class DismantlingController {
     }
 
     @PostMapping("/addKit")
-    public String addComplect()
+    public String addKit()
     {
         data.addEmptyKit();
+        return "redirect:/diss";
+    }
+
+    @PostMapping("/saveKit")
+    public String saveKit()
+    {
+        data.saveKit();
         return "redirect:/diss";
     }
 

@@ -39,7 +39,7 @@ public class DocumentEditor {
     public HashMap<String, Kit> addNewComplect()
     {
         Kit complect = new Kit();
-        this.complectMap.put(complect.getComplectName(), complect);
+        this.complectMap.put(complect.getKitName(), complect);
         return complectMap;
     }
 

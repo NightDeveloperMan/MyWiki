@@ -108,7 +108,7 @@
                           <div class="accordion-external-header" th:text="${ds.getComplectName()}+                                                          '▼'"></div>
                         <div class="accordion-content">
                           <div class="accordion-interior">
-                            <form action="accordion-form">
+                            <form th:method = "POST" th:action="@{/diss/saveKit}">
                               <label class="label" >Наименование комплекта:</label><br>
                               <input class="input-text" th:value="${ds.getComplectName()}"  type="text" id="cname" name="cname"><br>
                               <label class="label" >Инвентарный номер комплекта:</label><br>
