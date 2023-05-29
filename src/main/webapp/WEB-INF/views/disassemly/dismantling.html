@@ -106,7 +106,7 @@
 
                       <div th:each="ds:${data.getKitList()}" class="accordion-external">
                           <div class="accordion-external-header" th:text="${ds.getKitName()}+                                                          '▼'"></div>
-                        <div class="accordion-content">
+                        <div class="accordion-content ">
                           <div class="accordion-interior">
                             <form th:method = "POST" th:action="@{/diss/saveKit}">
                               <label class="label" >Наименование комплекта:</label><br>
