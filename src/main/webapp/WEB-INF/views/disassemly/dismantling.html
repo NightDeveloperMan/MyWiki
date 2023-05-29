@@ -105,16 +105,16 @@
 
 
                       <div th:each="ds:${data.getKitList()}" class="accordion-external">
-                          <div class="accordion-external-header" th:text="${ds.getComplectName()}+                                                          '▼'"></div>
+                          <div class="accordion-external-header" th:text="${ds.getKitName()}+                                                          '▼'"></div>
                         <div class="accordion-content">
                           <div class="accordion-interior">
                             <form th:method = "POST" th:action="@{/diss/saveKit}">
                               <label class="label" >Наименование комплекта:</label><br>
-                              <input class="input-text" th:value="${ds.getComplectName()}"  type="text" id="cname" name="cname"><br>
+                              <input class="input-text" th:value="${ds.getKitName()}"  type="text" id="cname" name="cname"><br>
                               <label class="label" >Инвентарный номер комплекта:</label><br>
                               <input class="input-text" th:value="${ds.getInventoryNumber()}" type="text" id="cnumber" name="cnumber"><br>
                               <label class="label" >Стоимость комплекта:</label><br>
-                              <input class="input-text" th:value="${ds.getComplectCost()}" type="text" id="ccost" name="ccost"><br><br>
+                              <input class="input-text" th:value="${ds.getKitCost()}" type="text" id="ccost" name="ccost"><br><br>
                               <input class="input-submit" type="submit" value="Сохранить">
                               <button class="add-complect">Добавить оборудование</button>
                             </form>
